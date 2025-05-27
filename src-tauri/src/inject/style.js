@@ -439,6 +439,9 @@ window.addEventListener('DOMContentLoaded', _event => {
         height: 0px;
       }
     }
+    div.border-r.border-\[\#222\].flex.flex-col.h-full.bg-black.transition-all.duration-300.w-\[220px\] {
+      padding-top: 20px;
+    }
   `;
   const isMac = navigator.platform.toUpperCase().indexOf('MAC') >= 0;
   if (window['pakeConfig']?.hide_title_bar && isMac) {
